@@ -1,0 +1,26 @@
+.btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+}
+
+body {
+  background: #343a40;
+}
+
+/* footer {
+  position: static;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 40px;
+} */
+
+.footer {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  /* position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%; */
+}
