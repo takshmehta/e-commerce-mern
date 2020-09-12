@@ -7,10 +7,10 @@ export default function ContactUs() {
 
     emailjs
       .sendForm(
-        "service_pmzp7jm",
-        "template_guvhivo",
+        service_id,
+        template_id,
         e.target,
-        "user_CVUMSjjyG9rXiRmr25XHp"
+       user_id
       )
       .then(
         (result) => {
